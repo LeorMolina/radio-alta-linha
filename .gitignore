@@ -1,0 +1,13 @@
+# Ignora as pastas de áudio na raiz do projeto
+musicas/
+jingles/
+
+# Ignora os uploads feitos pelo painel
+radio/uploads/musicas/*
+radio/uploads/propagandas/*
+!radio/uploads/musicas/.gitkeep
+!radio/uploads/propagandas/.gitkeep
+
+# Arquivos de sistema do Windows/Mac
+.DS_Store
+Thumbs.db
